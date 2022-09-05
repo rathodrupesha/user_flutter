@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067104629935",
+    "project_id": "hamro-stay",
+    "storage_bucket": "hamro-stay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067104629935:android:1fb568b8de9a79a13dd05a",
+        "android_client_info": {
+          "package_name": "com.app.hamrostay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067104629935-79da4tu8q3j1t6nnfk9413aes37tdbne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA2-9hjXyDOaL3Vm4z5o2p9V3X-nPo-1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067104629935-79da4tu8q3j1t6nnfk9413aes37tdbne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

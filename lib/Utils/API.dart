@@ -1,0 +1,102 @@
+class API {
+  static const BASE_URL = "hemrostay-api.apps.openxcell.dev";
+
+  // web-services
+  static const LOGIN = "api/v1/customer/user/signin";
+  static const DEVICE_INFO = "api/v1/customer/user/deviceInfo";
+  static const FETCH_USER = "api/v1/customer/user/profile";
+  static const CURRENT_STAY = "api/v1/customers/currentStay";
+  static const OUR_MAIN_SERVICES = "api/v1/customer-services/ourMainServices";
+  static const OUR_SUB_SERVICES = "api/v1/customer-services/ourSubServices";
+  static const OUR_PREMIUM_SERVICES = "api/v1/customer-services/premiumServices";
+  static const PREMIUM_SERVICES_DETAILS = "api/v1/customer-services/premiumServicesDetails";
+  static const LOGOUT = "api/v1/customer/user/logout";
+  static const SERVICE_BOOKING = "api/v1/customer-services/requestHotelService";
+  static const PACKAGE_DETAIL = "api/v1/customer-services/packageDetails";
+  static const BOOK_SLOT = "api/v1/customer/user/bookSlot";
+  static const GET_DATE_SLOT = "api/v1/customer/user/dateSlot";
+  static const ALL_REQUEST_LIST = "api/v1/customer-services/all-request-listing";
+  static const REQUEST_SERVICE_DETAIL = "api/v1/customer-services/request-details";
+  static const BOOKING_REVIEWS = "api/v1/customer/user/bookingReview";
+  static const SERVICE_REVIEW = "api/v1/customer-services/serviceReview";
+  static const ORDER_REVIEW = "api/v1/customer-orders/orderReview";
+  static const BOOKING_CANCEL = "api/v1/customer-services/booking-cancel";
+  static const REQUEST_CANCEL = "api/v1/customer-services/request-cancel";
+  static const ORDER_CANCEL = "api/v1/customer-orders/order-cancel";
+  static const SERVICE_COMPLAINT = "api/v1/customer-services/request-complaint";
+  static const BOOKING_COMPLAINT = "api/v1/customer-services/booking-complaint";
+  static const ORDER_COMPLAINT = "api/v1/customer-orders/order-complaint";
+  static const NOTIFICATION_LIST = "api/v1/customers/notification-listing";
+  static const HOTEL_COMMENT_REVIEW = "api/v1/customers/hotelCommentsReview";
+  static const CHANGE_PASSWORD = "api/v1/customer/user/change-password";
+  static const MEAL_DETAIL = "api/v1/customer-meals/meal-details";
+  static const GET_OWNER_MESSAGE = "api/v1/customer/user/ownerMessage";
+  static const FORGOT_PASSWORD = "api/v1/customer/user/forgetPassword";
+  static const GET_NOTES = "api/v1/customer/user/notesList";
+
+  static const FAQS = "api/v1/customers/faqs";
+  static const CMS = "api/v1/customer/user/cms";
+  static const DIRECTORIES = "api/v1/customer/user/directories";
+  static const DEFAULT_CATEGORY_MEALS = "api/v1/customer-meals/default-category-meal";
+  static const HOTEL_MEAL_CATEGORIES = "api/v1/customer-meals/hotel-meal-categories";
+  static const HOTEL_MEAL_BY_CATEGORY = "api/v1/customer-meals/hotel-meal-by-category";
+  static const SEARCH_MEAL_LIST = "api/v1/customer-meals/search-meal-list";
+  static const ADD_TO_CART = "api/v1/customer-orders/add-to-cart";
+  static const GET_CART_DETAIL = "api/v1/customer-orders/get-cart-details";
+  static const PLACE_ORDER = "api/v1/customer-orders/order";
+  static const DELETE_CART_ITEM = "api/v1/customer-orders/delete-cart-item";
+  static const EDIT_PROFILE = "api/v1/customer/user/edit-profile";
+  static const GET_BILL_DETAIL = "api/v1/customer/user/billDetails";
+
+  static const GET_ANNOUNCEMENT_CATEGORY = "api/v1/common-module/get-announcement-category";
+  static const GET_ANNOUNCEMENT = "api/v1/common-module/get-announcements";
+
+  // request codes
+  static int requestLogin = 1001;
+  static int requestFetchUser = 1002;
+  static int requestCurrentUser = 1003;
+  static int requestOurMainServices = 1004;
+  static int requestOurSubServices = 1005;
+  static int requestOurPremiumServices = 1006;
+  static int requestPremiumServicesDetails = 1007;
+  static int requestLogout = 1008;
+  static int requestServiceBooking = 1009;
+  static int requestFaqs = 1010;
+  static int requestCms = 1011;
+  static int requestDirectories = 1012;
+  static int requestDefaultCategoryMeals = 1013;
+  static int requestHotelMealCategories = 1014;
+  static int requestHotelMealByCategory = 1015;
+  static int requestAddToCart = 1016;
+  static int requestGetCartDetail = 1017;
+  static int requestPlaceOrder = 1018;
+  static int requestDeleteCartItem = 1019;
+  static int requestPackageDetail = 1020;
+  static int requestSearchMealList = 1021;
+  static int requestBookSlot = 1022;
+  static int requestGetDateSlot = 1023;
+  static int requestGetAllRequestList = 1024;
+  static int requestServiceDetail = 1025;
+  static int requestBookingReview = 1026;
+  static int requestServiceReview = 1027;
+  static int requestOrderReview = 1028;
+  static int requestBookingCancel = 1029;
+  static int requestOrderCancel = 1030;
+  static int requestRequestCancel = 1031;
+  static int requestServiceComplaint = 1032;
+  static int requestBookingComplaint = 1033;
+  static int requestOrderComplaint = 1034;
+  static int requestNotificationList = 1035;
+  static int requestDeviceInfo = 1036;
+  static int requestHotelCommentReview = 1037;
+  static int requestChangePassword = 1038;
+  static int requestEditProfile = 1039;
+  static int requestGetBillDetail = 1040;
+  static int requestGetOwnerMessage = 1041;
+  static int requestGetMealDetail = 1042;
+  static int requestForgotPassword = 1041;
+  static int getNotes = 1042;
+  static int requestAnnouncementCategory = 1043;
+  static int requestAnnouncement = 1044;
+
+}
